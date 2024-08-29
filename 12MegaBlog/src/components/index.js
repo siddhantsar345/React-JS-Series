@@ -6,7 +6,6 @@ import Logoutbtn from "./Header/LogoutBtn";
 import RTE from './RTE'
 import Signup from "./Signup"
 import Login from "./Login"
-import Post from "../Pages/Post"
 import PostForm from "./post-form/PostForm"
 import Postcard from "./Postcard"
 import AuthLayout from "./AuthLayout"
@@ -20,7 +19,6 @@ export{
     RTE,
     Signup,
     Login,
-    Post,
     PostForm,
     Postcard,
     AuthLayout,
