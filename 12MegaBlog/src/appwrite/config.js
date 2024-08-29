@@ -110,6 +110,7 @@ export class Service{
                 conf.appwriteBucketId,
                 fileId
              )
+             return true
         } catch (error) {
             console.log("Appwrite service :: deleteFile :: error",error);
             return false
@@ -119,7 +120,7 @@ export class Service{
     getFilePreview(fileId){
         return this.bucket.getFilePreview(
             conf.appwriteBucketId,
-            fileId
+            fileId,
         )
     }
 }
